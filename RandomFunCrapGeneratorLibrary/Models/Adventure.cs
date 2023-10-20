@@ -1,7 +1,7 @@
 ﻿namespace RandomFunCrapGeneratorLibrary.Models
 {
-    internal class Adventure : Activity
+    public class Adventure : Activity
     {
-
+        public bool IsOutdoor { get; set; }
     }
 }
