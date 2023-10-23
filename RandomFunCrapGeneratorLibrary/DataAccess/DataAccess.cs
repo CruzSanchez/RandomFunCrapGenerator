@@ -14,9 +14,17 @@ namespace RandomFunCrapGeneratorLibrary.DataAccess
 
             string fileData = File.ReadAllText(filePath);
 
-            List<T> data = JsonSerializer.Deserialize<List<T>>(fileData) ?? new List<T>();
+            try
+            {
+                List<T> data = JsonSerializer.Deserialize<List<T>>(fileData) ?? new List<T>();
 
-            return data;
+                return data;
+            }
+            catch (JsonException)
+            {
+                throw;
+            }
+
         }
 
         public void SaveData<T>(IEnumerable<T> values, string filePath) where T : Activity

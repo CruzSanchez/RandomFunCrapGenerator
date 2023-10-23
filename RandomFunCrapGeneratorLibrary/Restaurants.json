@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "Highlands Bar and Grill",
+    "Description": "Award-winning fine dining with a Southern twist.",
+    "OptimalTime": "17:00:00",
+    "StarRating": 5
+  },
+  {
+    "Name": "Saw's Soul Kitchen",
+    "Description": "Casual eatery serving up delicious Southern comfort food.",
+    "OptimalTime": "17:30:00",
+    "StarRating": 4.5
+  },
+  {
+    "Name": "Bottega Café",
+    "Description": "Italian-inspired cuisine in a cozy atmosphere.",
+    "OptimalTime": "18:00:00",
+    "StarRating": 4
+  },
+  {
+    "Name": "The Pizitz Food Hall",
+    "Description": "A diverse food hall offering various international cuisines.",
+    "OptimalTime": "18:30:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "Fancy's on 5th",
+    "Description": "Classic American dishes and craft cocktails in a historic building.",
+    "OptimalTime": "19:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Chez Fonfon",
+    "Description": "French bistro with a Southern twist, known for its burgers.",
+    "OptimalTime": "19:30:00",
+    "StarRating": 4.4
+  },
+  {
+    "Name": "Hot and Hot Fish Club",
+    "Description": "Creative seafood and Southern-inspired cuisine.",
+    "OptimalTime": "20:00:00",
+    "StarRating": 4.7
+  },
+  {
+    "Name": "El Barrio",
+    "Description": "Mexican restaurant with a great selection of tequila and mezcal.",
+    "OptimalTime": "20:30:00",
+    "StarRating": 4.1
+  },
+  {
+    "Name": "OvenBird",
+    "Description": "Spanish-inspired restaurant with an emphasis on wood-fired dishes.",
+    "OptimalTime": "21:00:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "Moss Rock Tacos & Tequila",
+    "Description": "Tacos and tequila in a vibrant and fun atmosphere.",
+    "OptimalTime": "17:30:00",
+    "StarRating": 4.0
+  },
+  {
+    "Name": "Blueprint on 3rd",
+    "Description": "Modern American restaurant with a seasonal menu.",
+    "OptimalTime": "18:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Nabeel's Café & Market",
+    "Description": "Mediterranean cuisine and a market with imported goods.",
+    "OptimalTime": "19:00:00",
+    "StarRating": 4.6
+  },
+  {
+    "Name": "Ashley Mac's",
+    "Description": "Homestyle Southern cooking and delicious desserts.",
+    "OptimalTime": "19:30:00",
+    "StarRating": 4.1
+  },
+  {
+    "Name": "Eagle's Restaurant",
+    "Description": "Soul food and Southern comfort dishes.",
+    "OptimalTime": "20:00:00",
+    "StarRating": 4.5
+  },
+  {
+    "Name": "Carrigan's Public House",
+    "Description": "Gastropub with a great selection of craft beers and cocktails.",
+    "OptimalTime": "20:30:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "Rojo",
+    "Description": "Eclectic menu with a focus on Latin and American fusion cuisine.",
+    "OptimalTime": "21:00:00",
+    "StarRating": 4.0
+  },
+  {
+    "Name": "Sushi Village",
+    "Description": "Japanese cuisine, including sushi and hibachi.",
+    "OptimalTime": "17:30:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Sol's Sandwich Shop & Deli",
+    "Description": "Deli sandwiches and comfort food in a relaxed setting.",
+    "OptimalTime": "18:00:00",
+    "StarRating": 4.0
+  },
+  {
+    "Name": "Silvertron Café",
+    "Description": "Local favorite with a diverse menu and outdoor seating.",
+    "OptimalTime": "18:30:00",
+    "StarRating": 4.1
+  },
+  {
+    "Name": "Jim 'N Nick's Bar-B-Q",
+    "Description": "Southern BBQ and comfort food in a casual setting.",
+    "OptimalTime": "19:00:00",
+    "StarRating": 4.4
+  }
+]

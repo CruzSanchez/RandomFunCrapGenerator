@@ -56,7 +56,11 @@ namespace RandomFunCrapGeneratorLibrary
             }
 
             return Adventures[_rng.Next(Adventures.Count)];
+        }
 
+        public string GetActivityInfo(Activity a)
+        {
+            return a.ToJson();
         }
     }
 }

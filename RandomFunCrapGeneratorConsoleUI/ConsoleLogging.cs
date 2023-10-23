@@ -29,5 +29,10 @@ namespace RandomFunCrapGeneratorConsoleUI
 
             }
         }
+
+        internal static void ClearConsoleWindow()
+        {
+            Console.Clear();
+        }
     }
 }
