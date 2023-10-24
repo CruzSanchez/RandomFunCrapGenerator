@@ -60,6 +60,8 @@ namespace RandomFunCrapGeneratorConsoleUI
                     ConsoleKey generatorKey = GenerateMenu();
                     Activity a = GenerateAction(generatorKey);
                     PassMessage(_activityMaster.GetActivityInfo(a), MessageStatusCode.Info);
+                    PassMessage("Press enter to continue...");
+                    PressEnter();
                     keepGoing = false;
                     return keepGoing;
 

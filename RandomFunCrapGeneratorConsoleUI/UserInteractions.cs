@@ -24,6 +24,11 @@ namespace RandomFunCrapGeneratorConsoleUI
             PassMessage("Goodbye...");
         }
 
+        internal static void PressEnter()
+        {
+            Console.ReadLine();
+        }
+
         internal static ConsoleKey GenerateMenu()
         {
             PassMessage("1. Generate Restaurant to eat at\n2. Generate Activity to go do");
