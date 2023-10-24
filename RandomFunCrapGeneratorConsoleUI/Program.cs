@@ -46,7 +46,9 @@ namespace RandomFunCrapGeneratorConsoleUI
 
             } while (keepGoing);
 
+            ClearConsoleWindow();
             ExitText();
+            _activityMaster.SaveListsToFile();
         }
 
         private static bool MainAction(ConsoleKey key)
@@ -63,18 +65,22 @@ namespace RandomFunCrapGeneratorConsoleUI
 
                 case ConsoleKey.D2:
                 case ConsoleKey.NumPad2:
+                    PassMessage("------- Restaurants ----------", MessageStatusCode.Info);
+                    _activityMaster.Restaurants.ForEach(x => PassMessage(x.ToJson(), MessageStatusCode.Info));
+                    PassMessage("------- Activities ----------", MessageStatusCode.Info);
+                    _activityMaster.Adventures.ForEach(x => PassMessage(x.ToJson(), MessageStatusCode.Info));
                     keepGoing = true;
                     return keepGoing;
 
                 case ConsoleKey.D3:
                 case ConsoleKey.NumPad3:
+                    ConsoleKey addNewKey = AddNewMenu();
+                    AddNewAction(addNewKey);
                     keepGoing = true;
                     return keepGoing;
 
                 case ConsoleKey.D4:
                 case ConsoleKey.NumPad4:
-                    ClearConsoleWindow();
-                    ExitText();
                     keepGoing = false;
                     return keepGoing;
 
@@ -103,7 +109,31 @@ namespace RandomFunCrapGeneratorConsoleUI
                     return a;
                 default:
                     PassMessage("Incorrect choice, generating something to eat", MessageStatusCode.Info);
-                    return new Restaurant();
+                    return _activityMaster.GenerateRandomRestaurant();
+            }
+        }
+
+        private static void AddNewAction(ConsoleKey key)
+        {
+            Activity a;
+
+            switch (key)
+            {
+                case ConsoleKey.D1:
+                case ConsoleKey.NumPad1:
+                    a = AddNewPrompt(typeof(Restaurant));
+                    _activityMaster.AddNew(a as Restaurant, PassMessage);
+                    return;
+
+                case ConsoleKey.D2:
+                case ConsoleKey.NumPad2:
+                    a = AddNewPrompt(typeof(Adventure));
+                    _activityMaster.AddNew(a as Adventure, PassMessage);
+                    return;
+                default:
+                    PassMessage("Incorrect choice, generating something to eat", MessageStatusCode.Info);
+                    _activityMaster.GenerateRandomRestaurant();
+                    return;
             }
         }
 

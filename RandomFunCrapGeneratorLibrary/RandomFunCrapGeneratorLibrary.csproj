@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Adventures.json">
+    <None Remove="Adventures.json" />
+    <None Remove="Restaurants.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Adventures.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Restaurants.json">
+    </Content>
+    <Content Include="Restaurants.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
 
 </Project>

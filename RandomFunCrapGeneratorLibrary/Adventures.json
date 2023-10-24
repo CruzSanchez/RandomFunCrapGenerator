@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "Name": "Axe Throwing Experience",
+    "Description": "Try your hand at axe throwing in a fun and safe environment.",
+    "Address": "123 Adventure Way, Birmingham, AL 35203",
+    "OptimalTime": "16:00:00",
+    "StarRating": 4.5
+  },
+  {
+    "Name": "Visit the Birmingham Museum of Art",
+    "Description": "Explore a diverse collection of art from around the world.",
+    "Address": "2000 Rev. Abraham Woods Jr. Blvd, Birmingham, AL 35203",
+    "OptimalTime": "10:00:00",
+    "StarRating": 4.6
+  },
+  {
+    "Name": "Barbecue Food Tour",
+    "Description": "Embark on a delicious barbecue tour and sample local flavors.",
+    "Address": "Various Locations, Birmingham, AL",
+    "OptimalTime": "12:00:00",
+    "StarRating": 4.4
+  },
+  {
+    "Name": "Birmingham Botanical Gardens",
+    "Description": "Stroll through beautiful gardens with a wide variety of plants.",
+    "Address": "2612 Lane Park Rd, Birmingham, AL 35223",
+    "OptimalTime": "14:00:00",
+    "StarRating": 4.7
+  },
+  {
+    "Name": "Movie Night at the Cinema",
+    "Description": "Enjoy the latest blockbusters at a local movie theater.",
+    "Address": "456 Movie Street, Birmingham, AL 35210",
+    "OptimalTime": "19:30:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "Birmingham Zoo Adventure",
+    "Description": "Discover a variety of animals and wildlife in the zoo.",
+    "Address": "2630 Cahaba Rd, Birmingham, AL 35223",
+    "OptimalTime": "11:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Hiking at Red Mountain Park",
+    "Description": "Explore scenic trails and enjoy the outdoors on Red Mountain.",
+    "Address": "2011 Frankfurt Dr, Birmingham, AL 35211",
+    "OptimalTime": "08:00:00",
+    "StarRating": 4.4
+  },
+  {
+    "Name": "Birmingham Civil Rights Institute",
+    "Description": "Learn about the civil rights movement and its history.",
+    "Address": "520 16th St N, Birmingham, AL 35203",
+    "OptimalTime": "10:30:00",
+    "StarRating": 4.5
+  },
+  {
+    "Name": "Railroad Park Picnic",
+    "Description": "Enjoy a picnic in the beautiful Railroad Park in the heart of the city.",
+    "Address": "1600 1st Ave S, Birmingham, AL 35233",
+    "OptimalTime": "12:30:00",
+    "StarRating": 4.6
+  },
+  {
+    "Name": "Sloss Furnaces National Historic Landmark",
+    "Description": "Explore the preserved industrial site and learn about its history.",
+    "Address": "20 32nd St N, Birmingham, AL 35222",
+    "OptimalTime": "15:00:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "Barons Baseball Game",
+    "Description": "Catch a Birmingham Barons baseball game at the stadium.",
+    "Address": "1401 1st Ave S, Birmingham, AL 35233",
+    "OptimalTime": "18:00:00",
+    "StarRating": 4.4
+  },
+  {
+    "Name": "Birmingham Food Truck Festival",
+    "Description": "Savor a variety of cuisines from local food trucks.",
+    "Address": "Downtown Birmingham, AL",
+    "OptimalTime": "17:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "McWane Science Center",
+    "Description": "Explore interactive science exhibits and activities for all ages.",
+    "Address": "200 19th St N, Birmingham, AL 35203",
+    "OptimalTime": "13:00:00",
+    "StarRating": 4.7
+  },
+  {
+    "Name": "Cahaba River Canoeing",
+    "Description": "Paddle down the scenic Cahaba River and enjoy nature.",
+    "Address": "132 River Road, Birmingham, AL 35244",
+    "OptimalTime": "09:00:00",
+    "StarRating": 4.5
+  },
+  {
+    "Name": "Avondale Brewery Tour",
+    "Description": "Take a tour of a local brewery and sample craft beers.",
+    "Address": "201 41st St S, Birmingham, AL 35222",
+    "OptimalTime": "16:30:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "Visit Vulcan Park and Museum",
+    "Description": "Admire the iconic Vulcan statue and learn about its history.",
+    "Address": "1701 Valley View Dr, Birmingham, AL 35209",
+    "OptimalTime": "11:30:00",
+    "StarRating": 4.6
+  },
+  {
+    "Name": "Salsa Dancing Night",
+    "Description": "Dance the night away with salsa music and dance lessons.",
+    "Address": "456 Salsa Street, Birmingham, AL 35210",
+    "OptimalTime": "20:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Birmingham Public Library",
+    "Description": "Explore a wealth of knowledge and literature at the library.",
+    "Address": "2100 Park Pl, Birmingham, AL 35203",
+    "OptimalTime": "14:30:00",
+    "StarRating": 4.4
+  },
+  {
+    "Name": "Birmingham Ghost Tour",
+    "Description": "Embark on a spooky adventure exploring haunted sites in the city.",
+    "Address": "Meet at 123 Haunted Street, Birmingham, AL 352XX",
+    "OptimalTime": "20:30:00",
+    "StarRating": 4.1
+  },
+  {
+    "Name": "Birmingham Jazz Club",
+    "Description": "Enjoy live jazz performances and great music in a cozy setting.",
+    "Address": "234 Jazz Avenue, Homewood, AL 35209",
+    "OptimalTime": "19:30:00",
+    "StarRating": 4.5
+  }
+]

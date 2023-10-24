@@ -1,5 +1,6 @@
 ﻿// Ignore Spelling: Validator
 
+using RandomFunCrapGeneratorLibrary.Helpers.Extensions;
 using RandomFunCrapGeneratorLibrary.Models;
 
 namespace RandomFunCrapGeneratorLibrary
@@ -10,14 +11,13 @@ namespace RandomFunCrapGeneratorLibrary
         {
             if (activityToValidate == null)
             {
-                activityToValidate.ValidationTicket.DenialReason = "Activity was null, please try again";
-                return;
+                throw new NullReferenceException("Activity was null, please try again");
             }
 
             ValidationTicket ticket = new ValidationTicket();
             activityToValidate.ValidationTicket = ticket;
 
-            if (string.IsNullOrEmpty(activityToValidate.Name) || string.IsNullOrWhiteSpace(activityToValidate.Name))
+            if (activityToValidate.Name.IsNullOrWhiteSpaceOrEmpty())
             {
                 activityToValidate.ValidationTicket.DenialReason = "Name was not given or in the correct format. Please try again";
                 return;

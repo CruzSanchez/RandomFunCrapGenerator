@@ -1,122 +1,170 @@
 [
   {
-    "Name": "Highlands Bar and Grill",
-    "Description": "Award-winning fine dining with a Southern twist.",
-    "OptimalTime": "17:00:00",
-    "StarRating": 5
-  },
-  {
-    "Name": "Saw's Soul Kitchen",
-    "Description": "Casual eatery serving up delicious Southern comfort food.",
-    "OptimalTime": "17:30:00",
+    "Name": "Southern Smokehouse",
+    "Description": "Authentic Southern barbecue and smoked meats.",
+    "Address": "1234 Oak Street, Birmingham, AL 35216",
+    "OptimalTime": "18:30:00",
     "StarRating": 4.5
   },
   {
-    "Name": "Bottega Café",
-    "Description": "Italian-inspired cuisine in a cozy atmosphere.",
-    "OptimalTime": "18:00:00",
-    "StarRating": 4
-  },
-  {
-    "Name": "The Pizitz Food Hall",
-    "Description": "A diverse food hall offering various international cuisines.",
-    "OptimalTime": "18:30:00",
+    "Name": "Café Du Jour",
+    "Description": "French cafe serving delicious pastries and coffee.",
+    "Address": "567 French Avenue, Homewood, AL 35209",
+    "OptimalTime": "09:00:00",
     "StarRating": 4.3
   },
   {
-    "Name": "Fancy's on 5th",
-    "Description": "Classic American dishes and craft cocktails in a historic building.",
-    "OptimalTime": "19:00:00",
-    "StarRating": 4.2
-  },
-  {
-    "Name": "Chez Fonfon",
-    "Description": "French bistro with a Southern twist, known for its burgers.",
-    "OptimalTime": "19:30:00",
-    "StarRating": 4.4
-  },
-  {
-    "Name": "Hot and Hot Fish Club",
-    "Description": "Creative seafood and Southern-inspired cuisine.",
-    "OptimalTime": "20:00:00",
-    "StarRating": 4.7
-  },
-  {
-    "Name": "El Barrio",
-    "Description": "Mexican restaurant with a great selection of tequila and mezcal.",
-    "OptimalTime": "20:30:00",
-    "StarRating": 4.1
-  },
-  {
-    "Name": "OvenBird",
-    "Description": "Spanish-inspired restaurant with an emphasis on wood-fired dishes.",
-    "OptimalTime": "21:00:00",
-    "StarRating": 4.3
-  },
-  {
-    "Name": "Moss Rock Tacos & Tequila",
-    "Description": "Tacos and tequila in a vibrant and fun atmosphere.",
-    "OptimalTime": "17:30:00",
-    "StarRating": 4.0
-  },
-  {
-    "Name": "Blueprint on 3rd",
-    "Description": "Modern American restaurant with a seasonal menu.",
-    "OptimalTime": "18:00:00",
-    "StarRating": 4.2
-  },
-  {
-    "Name": "Nabeel's Café & Market",
-    "Description": "Mediterranean cuisine and a market with imported goods.",
+    "Name": "Birmingham Bistro",
+    "Description": "Contemporary American cuisine in a stylish setting.",
+    "Address": "789 Main Street, Birmingham, AL 35203",
     "OptimalTime": "19:00:00",
     "StarRating": 4.6
   },
   {
-    "Name": "Ashley Mac's",
-    "Description": "Homestyle Southern cooking and delicious desserts.",
+    "Name": "Taste of India",
+    "Description": "Authentic Indian dishes and flavors.",
+    "Address": "234 Curry Lane, Hoover, AL 35226",
+    "OptimalTime": "20:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Birmingham Seafood Grill",
+    "Description": "Fresh seafood and grilled specialties.",
+    "Address": "456 Harbor Road, Birmingham, AL 35243",
+    "OptimalTime": "18:30:00",
+    "StarRating": 4.4
+  },
+  {
+    "Name": "Pasta Paradise",
+    "Description": "Italian pasta and pizza in a cozy atmosphere.",
+    "Address": "123 Italian Way, Vestavia Hills, AL 35216",
     "OptimalTime": "19:30:00",
     "StarRating": 4.1
   },
   {
-    "Name": "Eagle's Restaurant",
-    "Description": "Soul food and Southern comfort dishes.",
+    "Name": "Bayou Bites",
+    "Description": "Cajun and Creole cuisine with a Southern twist.",
+    "Address": "567 Mardi Gras Drive, Birmingham, AL 35204",
+    "OptimalTime": "20:30:00",
+    "StarRating": 4.5
+  },
+  {
+    "Name": "Szechuan Palace",
+    "Description": "Chinese cuisine with Szechuan specialties.",
+    "Address": "789 Kung Pao Lane, Homewood, AL 35209",
+    "OptimalTime": "18:00:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "The Veggie Patch",
+    "Description": "Vegetarian and vegan-friendly restaurant.",
+    "Address": "234 Green Avenue, Birmingham, AL 35222",
+    "OptimalTime": "19:00:00",
+    "StarRating": 4.0
+  },
+  {
+    "Name": "Grill Masters",
+    "Description": "Grilled specialties and barbecue dishes.",
+    "Address": "456 Grill Street, Vestavia Hills, AL 35216",
+    "OptimalTime": "20:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Mediterranean Delights",
+    "Description": "Mediterranean cuisine with a focus on fresh ingredients.",
+    "Address": "567 Olive Road, Birmingham, AL 35209",
+    "OptimalTime": "19:30:00",
+    "StarRating": 4.4
+  },
+  {
+    "Name": "Café Luna",
+    "Description": "Italian cafe with espresso and gelato.",
+    "Address": "234 Bella Vita Avenue, Homewood, AL 35209",
+    "OptimalTime": "08:30:00",
+    "StarRating": 4.1
+  },
+  {
+    "Name": "Flavors of Mexico",
+    "Description": "Authentic Mexican dishes and margaritas.",
+    "Address": "789 Tacos Plaza, Birmingham, AL 35210",
+    "OptimalTime": "19:30:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "Birmingham Brews",
+    "Description": "Local brewery with a variety of craft beers.",
+    "Address": "123 Craft Avenue, Birmingham, AL 35205",
+    "OptimalTime": "17:00:00",
+    "StarRating": 4.5
+  },
+  {
+    "Name": "Spice of India",
+    "Description": "Indian flavors and spicy dishes.",
+    "Address": "456 Curry Street, Vestavia Hills, AL 35243",
+    "OptimalTime": "20:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Sushi Sensations",
+    "Description": "Sushi and Japanese specialties in a modern setting.",
+    "Address": "234 Sushi Avenue, Birmingham, AL 35203",
+    "OptimalTime": "18:30:00",
+    "StarRating": 4.4
+  },
+  {
+    "Name": "The Farmhouse Table",
+    "Description": "Farm-to-table cuisine with a seasonal menu.",
+    "Address": "567 Harvest Lane, Hoover, AL 35226",
+    "OptimalTime": "19:30:00",
+    "StarRating": 4.6
+  },
+  {
+    "Name": "The Meatball Factory",
+    "Description": "Homemade meatballs and Italian dishes.",
+    "Address": "123 Meatball Street, Birmingham, AL 35222",
+    "OptimalTime": "20:30:00",
+    "StarRating": 4.0
+  },
+  {
+    "Name": "Diner's Delight",
+    "Description": "Classic American diner with comfort food.",
+    "Address": "456 Classic Road, Homewood, AL 35209",
+    "OptimalTime": "18:00:00",
+    "StarRating": 4.2
+  },
+  {
+    "Name": "Birmingham BBQ Pit",
+    "Description": "Barbecue and smoked meats with homemade sauces.",
+    "Address": "234 BBQ Lane, Birmingham, AL 35203",
+    "OptimalTime": "19:00:00",
+    "StarRating": 4.3
+  },
+  {
+    "Name": "Taste of the Orient",
+    "Description": "Asian cuisine with a variety of flavors.",
+    "Address": "789 Wok Street, Vestavia Hills, AL 35216",
     "OptimalTime": "20:00:00",
     "StarRating": 4.5
   },
   {
-    "Name": "Carrigan's Public House",
-    "Description": "Gastropub with a great selection of craft beers and cocktails.",
-    "OptimalTime": "20:30:00",
-    "StarRating": 4.3
-  },
-  {
-    "Name": "Rojo",
-    "Description": "Eclectic menu with a focus on Latin and American fusion cuisine.",
-    "OptimalTime": "21:00:00",
-    "StarRating": 4.0
-  },
-  {
-    "Name": "Sushi Village",
-    "Description": "Japanese cuisine, including sushi and hibachi.",
-    "OptimalTime": "17:30:00",
-    "StarRating": 4.2
-  },
-  {
-    "Name": "Sol's Sandwich Shop & Deli",
-    "Description": "Deli sandwiches and comfort food in a relaxed setting.",
-    "OptimalTime": "18:00:00",
-    "StarRating": 4.0
-  },
-  {
-    "Name": "Silvertron Café",
-    "Description": "Local favorite with a diverse menu and outdoor seating.",
-    "OptimalTime": "18:30:00",
+    "Name": "Soulful Suppers",
+    "Description": "Soul food and Southern comfort dishes.",
+    "Address": "123 Soul Avenue, Birmingham, AL 35204",
+    "OptimalTime": "19:30:00",
     "StarRating": 4.1
   },
   {
-    "Name": "Jim 'N Nick's Bar-B-Q",
-    "Description": "Southern BBQ and comfort food in a casual setting.",
-    "OptimalTime": "19:00:00",
+    "Name": "Birmingham Brunch House",
+    "Description": "Brunch specialties and breakfast favorites.",
+    "Address": "456 Morning Street, Hoover, AL 35226",
+    "OptimalTime": "09:00:00",
     "StarRating": 4.4
+  },
+  {
+    "Name": "Taco Tornado",
+    "Description": "Tacos, burritos, and Mexican delights.",
+    "Address": "567 Taco Plaza, Birmingham, AL 35210",
+    "OptimalTime": "18:30:00",
+    "StarRating": 4.2
   }
 ]

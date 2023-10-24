@@ -7,6 +7,7 @@ namespace RandomFunCrapGeneratorLibrary.Models
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Address { get; set; }
         public TimeOnly OptimalTime { get; set; }
         public float StarRating { get; set; }
 

@@ -1,4 +1,7 @@
-﻿using static RandomFunCrapGeneratorConsoleUI.ConsoleLogging;
+﻿using RandomFunCrapGeneratorLibrary;
+using RandomFunCrapGeneratorLibrary.Models;
+using static RandomFunCrapGeneratorConsoleUI.ConsoleLogging;
+using static RandomFunCrapGeneratorConsoleUI.Enums;
 
 namespace RandomFunCrapGeneratorConsoleUI
 {
@@ -31,6 +34,59 @@ namespace RandomFunCrapGeneratorConsoleUI
         {
             PassMessage("1. Generate Random Activity\n2. Review Activities\n3. Add new activity\n4. Exit Application");
             return GetUserResponseKey();
+        }
+
+        internal static ConsoleKey AddNewMenu()
+        {
+            PassMessage("1. Add new restaurant\n2. Add new activity");
+            return GetUserResponseKey();
+        }
+
+        internal static Activity AddNewPrompt(Type t)
+        {
+            Activity a = ActivityFactory.CreateNewActivity(t);
+
+            PassMessage("What is the Name?");
+            a.Name = GetUserResponseString();
+            PassMessage("What is the Description?");
+            a.Description = GetUserResponseString();
+            PassMessage("What is the Address?");
+            a.Address = GetUserResponseString();
+            PassMessage("What is the best time to go eat? example: 09:30 OR 17:00");
+            a.OptimalTime = GetUserResponseTime();
+            PassMessage("What is the rating? example: 3.1 OR 5");
+            a.StarRating = GetUserResponseFloat();
+
+            return a;
+        }
+
+        private static float GetUserResponseFloat()
+        {
+            float stars;
+
+            while (!float.TryParse(Console.ReadLine(), out stars))
+            {
+                PassMessage("Incorrect format, please try again", MessageStatusCode.Error);
+            }
+
+            return stars;
+        }
+
+        private static string GetUserResponseString()
+        {
+            return Console.ReadLine() ?? "";
+        }
+
+        private static TimeOnly GetUserResponseTime()
+        {
+            TimeOnly time;
+
+            while (!TimeOnly.TryParse(Console.ReadLine(), out time))
+            {
+                PassMessage("Incorrect format, please try again", MessageStatusCode.Error);
+            }
+
+            return time;
         }
 
         internal static void PrintAsciiTitle()
